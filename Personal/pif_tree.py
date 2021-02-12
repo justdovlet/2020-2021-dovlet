@@ -10,9 +10,9 @@ def fractal(aturt, depth, maxdepth):
   aturt.forward(length)  
   aturt.left(45)  
   fractal(aturt, depth+1, maxdepth)  
-  anotherturt.right(90)  
+  anotherturt.right(180)  
   anotherturt.forward(length)  
-  anotherturt.left(90)  
+  anotherturt.left(45)  
   anotherturt.forward(length)  
 
   # Если есть еще минимум 1 место для глубины 
